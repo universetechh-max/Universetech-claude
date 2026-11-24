@@ -1,9 +1,10 @@
 # Instruções para o Claude
 
-## Salvar todas as conversas
+## REGRA PERMANENTE: salvar TODAS as conversas (nunca esquecer)
 
-O dono deste repositório quer que **todas as conversas sejam salvas**, sem exceção.
+O dono deste repositório pediu explicitamente que **todas as conversas sejam salvas, sem exceção e sem precisar pedir de novo**.
 
-- A cada sessão, salve a conversa completa (mensagens do usuário e do Claude, na íntegra) em `docs/conversas/AAAA-MM-DD.md` (se já houver arquivo com a data, acrescente um sufixo, ex.: `2026-11-24-2.md`).
-- Atualize o arquivo a cada resposta, faça commit e dê push no branch de trabalho da sessão.
-- Escreva em português, no mesmo formato dos arquivos já existentes em `docs/conversas/`.
+- No início de cada sessão, crie `docs/conversas/AAAA-MM-DD.md` (se já existir arquivo com a data, use um sufixo, ex.: `2026-11-24-2.md`).
+- **A cada resposta**, acrescente ao arquivo a mensagem do usuário e a sua resposta, na íntegra, faça commit e dê push no branch de trabalho da sessão.
+- Não resuma nem omita nada. Escreva em português, no mesmo formato dos arquivos já existentes em `docs/conversas/`.
+- Esta regra vale para qualquer assunto da conversa, mesmo que a tarefa principal seja outra.
